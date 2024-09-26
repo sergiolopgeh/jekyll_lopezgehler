@@ -14,6 +14,7 @@ some of the most popular Jekyll resources.
 - [jamstackthemes.dev](https://jamstackthemes.dev/ssg/jekyll/)
 - [jekyllthemes.org](http://jekyllthemes.org/)
 - [jekyllthemes.io](https://jekyllthemes.io/)
+- [builtatlightspeed.com](https://builtatlightspeed.com/category/jekyll)
 
 See also: [docs/themes](/docs/themes/).
 
@@ -36,15 +37,15 @@ Use a SaaS service as a backend for functionality on your Jekyll site
 
 ### Comments
   - [Staticman](https://staticman.net): Add user-generated content to a Jekyll site (free and open source)
-  - [Talkyard](https://www.talkyard.io/blog-comments): Embedded comments for Jekyll and others (free and open source, or hosted serverless)
+  - [Talkyard](https://blog-comments.talkyard.io/): Embedded comments for Jekyll and others (free and open source, or hosted serverless)
 
 ### Content Management
   - [CloudCannon](https://cloudcannon.com/): The Cloud CMS for Jekyll
   - [Contentful](https://github.com/contentful/jekyll-contentful-data-import): Content infrastructure for digital teams
-  - [Forestry.io](https://forestry.io/): A free Git-based responsive CMS, with content modeling and instant previews.
-  - [Netlify CMS](https://www.netlifycms.org/): Open source content management for your Git workflow
+  - [TinaCMS.io](https://tina.io/): Tina is an open-source, Git-backed headless content management system (CMS) that empowers both developers and content creators to collaborate seamlessly on a single platform
+  - [Decap CMS](https://decapcms.org/): Decap CMS (formerly Netlify CMS) is an open source content management system for your Git workflow that enables you to provide editors with a friendly UI and intuitive workflows
   - [Siteleaf](https://www.siteleaf.com/): Built for developers, Loved by everyone
-  - [Kentico Kontent](https://github.com/Kentico/kontent-jekyll): A headless CMS with full control over content presentation
+  - [Kentico Kontent](https://rubygems.org/gems/kontent-jekyll/): A headless CMS with full control over content presentation
 
 ### E-commerce
   - [MemberSpace](https://www.memberspace.com/integrations/jekyll-membership/): Add memberships and paywall functionality to a Jekyll site
@@ -88,7 +89,7 @@ Use a SaaS service as a backend for functionality on your Jekyll site
 - [Adding Ajax pagination to Jekyll](https://eduardoboucas.com/blog/2014/11/05/adding-ajax-pagination-to-jekyll.html)
 - ['About this Website', by Carter Allen](http://cartera.me/2010/08/12/about-this-website/)
 
-  > "Jekyll is everything that I ever wanted in a blogging engine. Really. It isn't perfect, but what's excellent about it is that if there's something wrong, I know exactly how it works and how to fix it. It runs on the your machine only, and is essentially an added"build" step between you and the browser. I coded this entire site in TextMate using standard HTML5 and CSS3, and then at the end I added just a few little variables to the markup. Presto-chango, my site is built and I am at peace with the world."
+  > "Jekyll is everything that I ever wanted in a blogging engine. Really. It isn't perfect, but what's excellent about it is that if there's something wrong, I know exactly how it works and how to fix it. It runs on the your machine only, and is essentially an added "build" step between you and the browser. I coded this entire site in TextMate using standard HTML5 and CSS3, and then at the end I added just a few little variables to the markup. Presto-chango, my site is built and I am at peace with the world."
 
 - A way to [extend Jekyll](https://github.com/rfelix/jekyll_ext) without forking and modifying the Jekyll gem codebase and some [portable Jekyll extensions](https://github.com/rfelix/jekyll_ext/wiki/Extensions) that can be reused and shared.
 - [Using your Rails layouts in Jekyll](https://numbers.brighterplanet.com/2010/08/09/sharing-rails-views-with-jekyll)

@@ -1,15 +1,13 @@
 name: Third-Party Repository Profiling
 
 on:
-  push:
-    branches:
-      - master
   pull_request:
     branches:
       - master
+
 jobs:
   build_n_profile:
-    if: "!contains(github.event.commits[0].message, '[ci skip]')"
+    if: "contains(github.event.commits[0].message, '[3P Profile]')"
     runs-on: 'ubuntu-latest'
     env:
       BUNDLE_GEMFILE: "sandbox/Gemfile"
@@ -18,12 +16,12 @@ jobs:
       BUNDLE_RETRY: 3
     steps:
     - name: Checkout Jekyll
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         fetch-depth: 5
         path: jekyll
     - name: Checkout Third-Party Repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         repository: ashmaroli/tomjoht.github.io
         path: sandbox

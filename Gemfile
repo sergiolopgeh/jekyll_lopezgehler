@@ -15,6 +15,7 @@ end
 #
 
 group :test do
+  gem "activesupport", "< 7.1.0"
   gem "cucumber", RUBY_VERSION >= "2.5" ? "~> 5.1.2" : "~> 4.1"
   gem "httpclient"
   gem "jekyll_test_plugin"
@@ -23,7 +24,7 @@ group :test do
   gem "nokogiri", "~> 1.7"
   gem "rspec"
   gem "rspec-mocks"
-  gem "rubocop", "~> 1.48.0"
+  gem "rubocop", "~> 1.57.2"
   gem "rubocop-minitest"
   gem "rubocop-performance"
   gem "rubocop-rake"
@@ -48,7 +49,7 @@ group :test_legacy do
   gem "minitest"
   gem "minitest-profile"
   gem "minitest-reporters"
-  gem "shoulda"
+  gem "shoulda-context"
   gem "simplecov"
 end
 
